@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Email Spider Box Live</title>
+	<style type="text/css" >
+	
+	
+	.email-background {
+	background: #eee;
+	padding: 10px;
+	}
+	
+
+.email-container {
+    max-width:540px;
+	background: white;
+	font-family:sans-serif;
+	margin:0 auto;
+	overflow:hidden;
+	border-radius:5px
+
+	
+}
+	
+.pre-header {	
+background:#eee;
+	color:#eee;
+	font-size:5px;
+	
+	}
+	
+.margin{
+	margin:20px;
+	font-size:18px;
+	font-weight:300;
+	
+	color:#667;
+	line-height:1.5;
+
+
+}
+	
+	
+	.cta{
+		
+		margin: 20px;
+		text-align:center;
+	
+	}
+	
+	.anchorText{
+		text-decoration:none;
+		display:inline-block;
+		background:blue;
+		color: white;
+		padding:10px 20px 10px 20px;
+		border-radius:5px;
+		text-align:center;
+	
+	}
+
+	
+	
+	.thumbnail{
+	max-width:100%;
+	}
+	
+	.footer-junk {
+	
+		@extend .email-container;
+		background: none;
+		padding:20px;
+		font-size:12;
+		font-family:sans-serif;
+		color:grey;
+	
+	}
+	
+
+	.anchorBlue{
+		color: blue;
+	
+	}
+	
+	
+	</style>
+
+</head>
+<body>
+
+
+<div class="email-background">
+
+<div class="pre-header">
+
+You want the best programming available and now it's here. 
+Spiderbox Live is your answer to entertainment.
+
+</div>
+
+
+
+
+<div class="email-container">
+
+<h1 class="cta">Hey you guuuuuyyyyyssssss!!!</h1>
+
+
+<a href="https://www.youtube.com/watch?v=eBciS8jCaaU">
+ <img class="thumbnail" src="spiderboxThumbnail.jpg">
+</a>
+
+<div class="margin">
+
+<p>The best programming available is now at your fingertips. Spiderbox Live is your answer to hours of entertainment. 
+See what customers are saying about Spiderbox programming options...</p>
+
+</div>
+<div class="cta">
+	
+	<a class="anchorText" href="https://www.youtube.com/watch?v=eBciS8jCaaU">Watch the video now!
+    </a>	
+	
+	
+	
+	
+</div>
+
+</div>
+
+
+	<div class="cta footer-junk">
+	591 Telegraph Canyon Rd. #473 Chula Vista, CA 91910 | <a class="anchorBlue" href="">Unsubscribe</a>
+	</div>
+
+</div>
+
+
+</body>
+
+
+</html>
